@@ -13,7 +13,7 @@
       <name>firstName</name>
    </variable>
    <variable>
-      <defaultValue>'kosgeidennis@ymail.com'</defaultValue>
+      <defaultValue>'chumbadennis@ymail.com'</defaultValue>
       <description></description>
       <id>bea76a74-33e7-4f23-9f1b-c5b32c1318b4</id>
       <masked>false</masked>
@@ -62,7 +62,7 @@
       <name>userStatus</name>
    </variable>
    <variable>
-      <defaultValue>'kosgei@ymail.com'</defaultValue>
+      <defaultValue>'chumbadennis@ymail.com'</defaultValue>
       <description></description>
       <id>2eee79a7-0719-4e47-b2bb-dc2aae0a78aa</id>
       <masked>false</masked>

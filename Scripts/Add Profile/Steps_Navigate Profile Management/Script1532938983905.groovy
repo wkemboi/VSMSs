@@ -19,24 +19,9 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('User Logins/User Login'), [('Emailaddress') : 'lagatywesleyk@gmail.com', ('password') : '@Wkk_5608'], 
-    FailureHandling.STOP_ON_FAILURE)
+WebUiBuiltInKeywords.click(findTestObject('Dashboard/Link_Modules'))
 
-WebUI.callTestCase(findTestCase('Add User/Steps_Add User'), [('firstName') : firstName, ('lastName') : lastName, ('email') : email
-        , ('phone') : phone, ('title') : title, ('department') : department, ('userstatus') : userStatus, ('jobFunction') : jobFunction], 
-    FailureHandling.STOP_ON_FAILURE)
+WebUiBuiltInKeywords.click(findTestObject('Dashboard/Link_User management'))
 
-WebUiBuiltInKeywords.click(findTestObject('User Management/Btn_Create User'))
-
-WebUiBuiltInKeywords.delay(3)
-
-WebUI.callTestCase(findTestCase('Add User/Steps_ Search User'), [('email') : email], FailureHandling.STOP_ON_FAILURE)
-
-SearchedOutput = WebUI.getText(findTestObject('User Management/Label_Searched Email', [('searchEmail') : searchEmail]))
-
-WebUiBuiltInKeywords.delay(3)
-
-WebUI.verifyEqual(searchEmail, SearchedOutput)
-
-WebUiBuiltInKeywords.closeBrowser()
+WebUiBuiltInKeywords.click(findTestObject('Profile Management/Link_Profile'))
 

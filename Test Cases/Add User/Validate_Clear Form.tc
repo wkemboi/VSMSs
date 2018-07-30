@@ -13,10 +13,10 @@
       <name>firstName</name>
    </variable>
    <variable>
-      <defaultValue>'wesklm'</defaultValue>
+      <defaultValue>'markwesoo@yahoo.com'</defaultValue>
       <description></description>
-      <id>8e7ca08c-6f2e-43e1-8f3d-058483fa4643</id>
+      <id>49639b6f-b44a-4329-bbcb-f23a5ce10b3a</id>
       <masked>false</masked>
-      <name>clearedFirstname</name>
+      <name>email</name>
    </variable>
 </TestCaseEntity>

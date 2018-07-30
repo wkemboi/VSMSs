@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Btn_Add New</name>
+   <name>Message_Successful</name>
    <tag></tag>
-   <elementGuidId>f6d49bdb-db59-477b-981f-97301d9b1d8f</elementGuidId>
+   <elementGuidId>85555688-472a-4475-8c70-9d976279f099</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>.//*[@id='addprofilebtn']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +16,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>.//*[@id='addprofilebtn']</value>
+      <value>.//*[text() = &quot;New user has been added successfully!&quot;]</value>
    </webElementProperties>
 </WebElementEntity>

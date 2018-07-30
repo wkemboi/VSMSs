@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Btn_Add New</name>
+   <name>Btn_Delete Profile</name>
    <tag></tag>
-   <elementGuidId>f6d49bdb-db59-477b-981f-97301d9b1d8f</elementGuidId>
+   <elementGuidId>362d4992-c72f-460b-bdb1-e7b6fdadebc0</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>.//*[@id='addprofilebtn']</value>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>.//*[@id='addprofilebtn']</value>
+      <value>.//*[text()='Delete']</value>
    </webElementProperties>
 </WebElementEntity>

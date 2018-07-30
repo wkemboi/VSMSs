@@ -6,7 +6,7 @@
    <comment></comment>
    <testCaseGuid>d198fec4-376a-4eb8-ae16-af7d40fa1597</testCaseGuid>
    <variable>
-      <defaultValue>'director'</defaultValue>
+      <defaultValue>'gardensmans'</defaultValue>
       <description></description>
       <id>3cf17e58-92c1-4038-8b9b-1531057b1d0e</id>
       <masked>false</masked>
@@ -18,5 +18,12 @@
       <id>c9894e60-9874-45f3-a0a8-6946822dfbdf</id>
       <masked>false</masked>
       <name>description</name>
+   </variable>
+   <variable>
+      <defaultValue>'gardensmans'</defaultValue>
+      <description></description>
+      <id>7dc43e8b-bca7-4134-8ca8-1162721260df</id>
+      <masked>false</masked>
+      <name>searchedProfile</name>
    </variable>
 </TestCaseEntity>

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Searched_Email</name>
+   <name>Link_Profile Name</name>
    <tag></tag>
-   <elementGuidId>d1ffa06c-6812-4d93-a72e-3227d96e8233</elementGuidId>
+   <elementGuidId>e65b031a-5133-49b9-9db1-24c0a23541e4</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>.//*[@id='users']/div[5]//td[normalize-space()=&quot;${searchEmail}&quot;]</value>
+         <value>.//*[text()='${searchedProfile}']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>.//*[@id='users']/div[5]//td[normalize-space()=&quot;${searchEmail}&quot;]</value>
+      <value>.//*[text()='${searchedProfile}']</value>
    </webElementProperties>
 </WebElementEntity>

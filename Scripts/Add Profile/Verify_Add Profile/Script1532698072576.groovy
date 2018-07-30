@@ -22,5 +22,20 @@ import internal.GlobalVariable as GlobalVariable
 WebUI.callTestCase(findTestCase('User Logins/User Login'), [('Emailaddress') : 'lagatywesleyk@gmail.com', ('password') : '@Wkk_5608'], 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Add Profile/Steps Add Profile'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Add Profile/Steps Add Profile'), [('profileDescription') : description, ('profileName') : profileName], 
+    FailureHandling.STOP_ON_FAILURE)
+
+WebUiBuiltInKeywords.click(findTestObject('Profile Management/Btn_Save'))
+
+WebUiBuiltInKeywords.delay(3)
+
+WebUiBuiltInKeywords.setText(findTestObject('Profile Management/Input_Search Profile'), profileName)
+
+WebUiBuiltInKeywords.click(findTestObject('Profile Management/Btn_Search'))
+
+searchedprofile = WebUiBuiltInKeywords.getText(findTestObject('Profile Management/Link_Profile Name'))
+
+WebUiBuiltInKeywords.verifyEqual(profileName, searchedProfile)
+
+WebUiBuiltInKeywords.closeBrowser()
 

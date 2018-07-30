@@ -22,21 +22,21 @@ import internal.GlobalVariable as GlobalVariable
 WebUI.callTestCase(findTestCase('User Logins/User Login'), [('Emailaddress') : 'lagatywesleyk@gmail.com', ('password') : '@Wkk_5608'], 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Add User/Steps_Add User'), [('firstName') : firstName, ('lastName') : lastName, ('email') : email
-        , ('phone') : phone, ('title') : title, ('department') : department, ('userstatus') : userStatus, ('jobFunction') : jobFunction], 
-    FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Add Profile/Steps_Navigate Profile Management'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUiBuiltInKeywords.click(findTestObject('User Management/Btn_Create User'))
+WebUiBuiltInKeywords.click(findTestObject('Profile Management/Btn_Add New'))
 
 WebUiBuiltInKeywords.delay(3)
 
-WebUI.callTestCase(findTestCase('Add User/Steps_ Search User'), [('email') : email], FailureHandling.STOP_ON_FAILURE)
-
-SearchedOutput = WebUI.getText(findTestObject('User Management/Label_Searched Email', [('searchEmail') : searchEmail]))
+WebUiBuiltInKeywords.setText(findTestObject('Profile Management/Input_Profile Name'), profileName)
 
 WebUiBuiltInKeywords.delay(3)
 
-WebUI.verifyEqual(searchEmail, SearchedOutput)
+profile = WebUI.getText(findTestObject('Profile Management/Input_Profile Name'))
+
+WebUiBuiltInKeywords.click(findTestObject('Profile Management/Btn_Clear'))
+
+WebUiBuiltInKeywords.verifyTextNotPresent(profileName, true)
 
 WebUiBuiltInKeywords.closeBrowser()
 

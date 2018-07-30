@@ -26,11 +26,9 @@ WebUI.callTestCase(findTestCase('Add User/Steps_Add User'), [('firstName') : 'we
         , ('title') : 'Sales Man', ('phone') : '0723456789', ('department') : 'marketing', ('jobFunction') : 'is_staff', ('useStatus') : 'inactive'], 
     FailureHandling.STOP_ON_FAILURE)
 
-not_run: WebUiBuiltInKeywords.click(findTestObject('User Management/Btn_Clear'))
+WebUiBuiltInKeywords.click(findTestObject('User Management/Btn_Clear'))
 
-not_run: clearedfirstname = WebUiBuiltInKeywords.getText(findTestObject('User Management/Input_First Name', [('clearedFirstname') : clearedFirstname]))
+WebUiBuiltInKeywords.verifyTextNotPresent(email, false)
 
-not_run: WebUI.verifyNotEqual(clearedFirstname, firstName)
-
-not_run: WebUiBuiltInKeywords.closeBrowser()
+WebUiBuiltInKeywords.closeBrowser()
 

@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Steps Add Profile</name>
+   <name>Validate_Clear Profile</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>322ee37b-d3ef-4159-9739-4780c05d5d2b</testCaseGuid>
+   <testCaseGuid>438d3a75-845c-49c1-b7d5-1dd4d57f6a73</testCaseGuid>
    <variable>
-      <defaultValue>'managers'</defaultValue>
+      <defaultValue>'mgmt'</defaultValue>
       <description></description>
-      <id>e61eb80d-65d5-4d1d-8c10-ecec636770d1</id>
+      <id>b764a616-efd7-4a80-a222-4cc80112162f</id>
       <masked>false</masked>
       <name>profileName</name>
    </variable>
    <variable>
-      <defaultValue>'thanks'</defaultValue>
+      <defaultValue>'yes'</defaultValue>
       <description></description>
-      <id>1f3ecfcf-4a81-468e-b7fe-5eafa051dc3f</id>
+      <id>b1dbe2d7-b4f3-4a5a-9d1b-77a9a8806b6b</id>
       <masked>false</masked>
-      <name>profileDescription</name>
+      <name>description</name>
    </variable>
 </TestCaseEntity>

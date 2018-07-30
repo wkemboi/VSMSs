@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Element _Successful</name>
+   <name>Label_Searched Email</name>
    <tag></tag>
-   <elementGuidId>85555688-472a-4475-8c70-9d976279f099</elementGuidId>
+   <elementGuidId>d1ffa06c-6812-4d93-a72e-3227d96e8233</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value>.//*[@id='users']/div[5]//td[normalize-space()=&quot;${searchEmail}&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -16,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>.//*[text() = &quot;New user has been added successfully!&quot;]</value>
+      <value>.//*[@id='users']/div[5]//td[normalize-space()=&quot;${searchEmail}&quot;]</value>
    </webElementProperties>
 </WebElementEntity>

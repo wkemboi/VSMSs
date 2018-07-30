@@ -19,22 +19,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('User Logins/User Login'), [('Emailaddress') : 'lagatywesleyk@gmail.com', ('password') : '@Wkk_5608'], 
-    FailureHandling.STOP_ON_FAILURE)
-
-WebUiBuiltInKeywords.click(findTestObject('Dashboard/Link_Modules'))
-
-WebUiBuiltInKeywords.click(findTestObject('Dashboard/Link_User management'))
-
-WebUiBuiltInKeywords.click(findTestObject('Profile Management/Link_Profile'))
+WebUI.callTestCase(findTestCase('Add Profile/Steps_Navigate Profile Management'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUiBuiltInKeywords.click(findTestObject('Profile Management/Btn_Add New'))
-
-WebUiBuiltInKeywords.delay(3)
-
-WebUiBuiltInKeywords.setText(findTestObject('Profile Management/Input_Profile Name'), profileName)
-
-WebUI.delay(3)
-
-WebUiBuiltInKeywords.setText(findTestObject('Profile Management/Input_Profile Description'), profileDescription)
 

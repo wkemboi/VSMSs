@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Btn_Add New</name>
+   <name>Input_Search Profile</name>
    <tag></tag>
-   <elementGuidId>f6d49bdb-db59-477b-981f-97301d9b1d8f</elementGuidId>
+   <elementGuidId>de7b6e40-10b4-4839-91f8-33131d1225e1</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>.//*[@id='addprofilebtn']</value>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>.//*[@id='addprofilebtn']</value>
+      <value>.//*[@id='searchprofilebtn']/input</value>
    </webElementProperties>
 </WebElementEntity>
