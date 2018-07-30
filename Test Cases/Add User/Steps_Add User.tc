@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Steps_Add User</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>51b83448-b7ac-44fa-9c58-c65cd9fc02d3</testCaseGuid>
+   <variable>
+      <defaultValue>'wesklm'</defaultValue>
+      <description></description>
+      <id>228811cd-8124-4085-8ce5-311c9210d559</id>
+      <masked>false</masked>
+      <name>firstName</name>
+   </variable>
+   <variable>
+      <defaultValue>'kips'</defaultValue>
+      <description></description>
+      <id>3aac0519-47e6-4ffa-8b6d-d525e1d71735</id>
+      <masked>false</masked>
+      <name>lastName</name>
+   </variable>
+   <variable>
+      <defaultValue>'markwesoo@yahoo.com'</defaultValue>
+      <description></description>
+      <id>b6f5beba-8404-4164-94a4-757a8ba156dc</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>'Sales Man'</defaultValue>
+      <description></description>
+      <id>5328dda6-a86e-4e25-900c-01aac33f6071</id>
+      <masked>false</masked>
+      <name>title</name>
+   </variable>
+   <variable>
+      <defaultValue>'0723456789'</defaultValue>
+      <description></description>
+      <id>25b26876-cdf5-4e88-8185-c183c510c324</id>
+      <masked>false</masked>
+      <name>phone</name>
+   </variable>
+   <variable>
+      <defaultValue>'marketing'</defaultValue>
+      <description></description>
+      <id>86d53216-a0bb-4a91-973a-e562ee4e5a62</id>
+      <masked>false</masked>
+      <name>department</name>
+   </variable>
+   <variable>
+      <defaultValue>'is_staff'</defaultValue>
+      <description></description>
+      <id>8a0114cc-de60-4808-8e70-0fa1dd86cbb0</id>
+      <masked>false</masked>
+      <name>jobFunction</name>
+   </variable>
+   <variable>
+      <defaultValue>'inactive'</defaultValue>
+      <description></description>
+      <id>cf15bfc4-f3f4-4ed7-8f25-ba39510c1122</id>
+      <masked>false</masked>
+      <name>useStatus</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Steps_ Search User</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9fe441fc-d2ef-4956-83b3-49e22961ba9d</testCaseGuid>
+   <variable>
+      <defaultValue>'markwesoo@yahoo.com'</defaultValue>
+      <description></description>
+      <id>9391b6f1-efe4-43dd-ada0-35348470e461</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+</TestCaseEntity>

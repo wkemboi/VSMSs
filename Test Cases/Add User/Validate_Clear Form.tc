@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Validate_Clear Form</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>790b4917-b814-4c7b-853c-44537cba342c</testCaseGuid>
+   <variable>
+      <defaultValue>'wesklm'</defaultValue>
+      <description></description>
+      <id>18bee280-6ef8-4d9c-bee1-6cbc87cdfbab</id>
+      <masked>false</masked>
+      <name>firstName</name>
+   </variable>
+   <variable>
+      <defaultValue>'wesklm'</defaultValue>
+      <description></description>
+      <id>8e7ca08c-6f2e-43e1-8f3d-058483fa4643</id>
+      <masked>false</masked>
+      <name>clearedFirstname</name>
+   </variable>
+</TestCaseEntity>

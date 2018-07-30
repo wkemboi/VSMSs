@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Steps Add Profile</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>322ee37b-d3ef-4159-9739-4780c05d5d2b</testCaseGuid>
+   <variable>
+      <defaultValue>'director'</defaultValue>
+      <description></description>
+      <id>e61eb80d-65d5-4d1d-8c10-ecec636770d1</id>
+      <masked>false</masked>
+      <name>profileName</name>
+   </variable>
+   <variable>
+      <defaultValue>'thanks'</defaultValue>
+      <description></description>
+      <id>1f3ecfcf-4a81-468e-b7fe-5eafa051dc3f</id>
+      <masked>false</masked>
+      <name>profileDescription</name>
+   </variable>
+</TestCaseEntity>
